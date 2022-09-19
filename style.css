@@ -226,74 +226,78 @@
     background-color: var(--var-btn-hover);
 }
 
-#service{
+#Service {
     padding: 4rem 6rem;
     display: flex;
     justify-content: center;
-}
-
-.header-service{
+  }
+  
+  .header-service {
     display: flex;
     font-size: 28px;
-    min-height: 10vh;
-    height: 100%;
     line-height: 2;
     width: 25%;
-}
-.header-service .title-service{
-    font-size: 36px;
-    color: var(--var-service);
-}
-.header-service .context-service-detail{
-    font-size: 12px;
-}
-.header-service .h2{
-    font-size: 24px;
-}
-.header-service .h2{
-    margin-left: auto;
-    width: 100%;
-    text-align: justify;
-}
-.header-service .context-service{
-    margin-left: auto;
-    width: 70%;
-    text-align: justify;
-    
-}
-
-.box-service{
-    margin: 40px 0;
-}
-.box-service-context{
+    color: var(--var-btn);
+    height: 100%;
+  }
+  
+  .content-service {
+    width: 75%;
+  }
+  
+  .title-content-service h2 {
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .title-content-service .text-service {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .box-service {
+    margin: 40px;
+  }
+  
+  .box-service-content {
+    margin: 25px 0;
     padding: 40px;
     border: 1px solid #000;
-    margin: 20px 0;
     display: flex;
     align-items: center;
-}
-.text-service-context{
-    width: 80%;
-}
-.text-service-context h2{
+  }
+  
+  .text-service-content {
+    width: 55%;
+  }
+  
+  .text-service-content h2 {
     margin-bottom: 10px;
     font-size: 32px;
     font-weight: 500;
-}
-.btn-service{
-    width: 20%;
+  }
+  
+  .btn-service {
+    width: 45%;
     display: flex;
-}
-.btn-service a{
+    margin-left: 16px;
+  }
+  
+  .btn-service a {
     padding: 15px 20px;
     background-color: var(--var-btn);
     text-decoration: none;
+    border-radius: 5px;
     color: var(--var-btn-text);
-    transition: .3s;
-}
-.btn-service a:hover{
+    transition: 0.3s;
+  }
+  
+  .btn-service a:hover {
     background-color: var(--var-btn-hover);
-}
+  }
 
 #AboutUs {
     padding: 4rem 6rem;
